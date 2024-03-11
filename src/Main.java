@@ -8,7 +8,6 @@ public class Main {
         String fullNameForReport = fullName.toUpperCase();
         System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета —" + fullNameForReport);
         fullName = "Иванов Семён Семёнович";
-        fullName = fullName.replace("ё", "е");
-        System.out.println("Данные Ф. И. О. сотрудника — " + fullName);
+        System.out.println("Данные Ф. И. О. сотрудника — " + fullName.replace("ё", "е"));
     }
 }
